@@ -1,4 +1,4 @@
-FROM gcr.io/datamechanics/spark:platform-3.2-latest
+FROM public.ecr.aws/ocean-spark/spark:platform-3.3.1-gen19
 
 USER root
 RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
